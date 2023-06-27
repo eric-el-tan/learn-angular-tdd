@@ -2,6 +2,12 @@
 
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 14.2.11.
 
+
+## Command
+- `npm install`
+- `npm test`
+- `npm start`
+
 ## Development server
 
 Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The application will automatically reload if you change any of the source files.
@@ -16,7 +22,9 @@ Run `ng build` to build the project. The build artifacts will be stored in the `
 
 ## Running unit tests
 
-Run `ng test` to execute the unit tests via [Karma](https://karma-runner.github.io).
+Run `ng test` to execute the unit tests via [mocha](https://mochajs.org/).
+- Compatible version : Mocha 10.2.0 + Angular 14.2.11 + NodeJs 16.14.2
+<!-- Run `ng test` to execute the unit tests via [Karma](https://karma-runner.github.io). -->
 
 ## Running end-to-end tests
 
