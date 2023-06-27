@@ -5,8 +5,9 @@ describe('RankingHolder', () => {
 
   describe('average', () => {
 
-    // let instance: RankingHolder;
+    // let instance: RankingHolderT;
     let str1: string;
+    let startTime: number = new Date().getMilliseconds();
 
     beforeEach(() => {
       // instance = new RankingHolder();
@@ -17,7 +18,8 @@ describe('RankingHolder', () => {
     afterEach(() => {
       //   instance = new RankingHolder();
       str1 = "end of str1";
-      // console.log(`afterEach ${str1}`);
+      let endTime: number = new Date().getMilliseconds();
+      console.log(`time spend: ${endTime - startTime} ms`);
     });
 
     context.only('when having no result', () => {
